@@ -44,3 +44,11 @@ rm -rf %{buildroot}
 %{_bindir}/migrate*
 %{python_sitearch}/*
 
+
+
+%changelog
+* Wed Jun 08 2011 Antoine Ginies <aginies@mandriva.com> 0.6.1-1mdv2011.0
++ Revision: 683270
+- import python-sqlalchemy-migrate
+
+
