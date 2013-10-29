@@ -1,4 +1,7 @@
 %define module sqlalchemy-migrate
+
+%define debug_package %{nil}
+
 Name:           python-%{module}
 Version:        0.7.2
 Release:        1
@@ -14,7 +17,6 @@ Requires:       python-sqlalchemy >= 0.5
 Requires:       python-sphinx >= 0.5
 Requires:       python-tempita
 Requires:       python-decorator
-Buildarch:	noarch
 
 %description
 Inspired by Ruby on Rails' migrations, Migrate provides a way to deal with
@@ -39,13 +41,5 @@ CFLAGS="%{optflags}" python setup.py build
 %doc PKG-INFO README docs
 %{_bindir}/migrate*
 %{py_platsitedir}/*
-
-
-
-%changelog
-* Wed Jun 08 2011 Antoine Ginies <aginies@mandriva.com> 0.6.1-1mdv2011.0
-+ Revision: 683270
-- import python-sqlalchemy-migrate
-
 
 
