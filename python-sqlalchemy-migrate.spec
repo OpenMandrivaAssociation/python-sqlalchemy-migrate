@@ -38,7 +38,7 @@ CFLAGS="%{optflags}" python setup.py build
 %clean
 
 %files 
-%doc PKG-INFO README docs
+%doc PKG-INFO  
 %{_bindir}/migrate*
 %{py_platsitedir}/*
 
