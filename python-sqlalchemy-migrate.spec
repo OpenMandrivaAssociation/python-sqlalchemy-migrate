@@ -3,10 +3,10 @@
 %define debug_package %{nil}
 
 Name:           python-%{module}
-Version:        0.7.2
+Version:        0.8.2
 Release:        1
 License:        MIT
-Source:         http://sqlalchemy-migrate.googlecode.com/files/sqlalchemy-migrate-%{version}.tar.gz
+Source:         http://pypi.python.org/packages/source/s/sqlalchemy-migrate/sqlalchemy-migrate-%{version}.tar.gz
 Group:          Development/Python
 Summary:        Database schema migration for SQLAlchemy
 BuildRequires:  python-py
@@ -41,5 +41,6 @@ CFLAGS="%{optflags}" python setup.py build
 %doc PKG-INFO README docs
 %{_bindir}/migrate*
 %{py_platsitedir}/*
+
 
 
