@@ -1,2 +1,4 @@
+removed_sources:
+  sqlalchemy-migrate-0.6.1.tar.bz2: 2a0bcad56d9eee85f107decdd21ebe09fbaff6b8
 sources:
-  "sqlalchemy-migrate-0.6.1.tar.bz2": 2a0bcad56d9eee85f107decdd21ebe09fbaff6b8
+  sqlalchemy-migrate-0.7.2.tar.gz: d88f0159e3f58fed8c50ba83f0b19559b0524cb5
