@@ -4,7 +4,7 @@
 
 Name:           python-%{module}
 Version:        0.7.2
-Release:        1
+Release:        2
 License:        MIT
 Source:         http://sqlalchemy-migrate.googlecode.com/files/sqlalchemy-migrate-%{version}.tar.gz
 Group:          Development/Python
