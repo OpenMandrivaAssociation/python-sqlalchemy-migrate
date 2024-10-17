@@ -10,7 +10,7 @@ Source:         http://sqlalchemy-migrate.googlecode.com/files/sqlalchemy-migrat
 Group:          Development/Python
 Summary:        Database schema migration for SQLAlchemy
 BuildRequires:  python-py
-Url:            http://pypi.python.org/pypi/sqlalchemy-migrate
+Url:            https://pypi.python.org/pypi/sqlalchemy-migrate
 BuildRequires:  python-setuptools
 Requires:       python-nose >= 0.10
 Requires:       python-sqlalchemy >= 0.5
